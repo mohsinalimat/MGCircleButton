@@ -1,6 +1,10 @@
 # MGCircleButton
 Subclass of UIButton, with circle background image of custom color
 
+### You can use it with shadows, custom titles.
+
+### Button can handle touches only inside circle
+
 ![Screenshot](https://github.com/Magnat12/MGCircleButton/blob/master/CircleButtonExample/CircleButtonExample/Screenshot1.png "Screenshot")
 
 # Setup
