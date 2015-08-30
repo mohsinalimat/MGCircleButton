@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGw-hh-C4I" customClass="CircleButton">
+                                <rect key="frame" x="16" y="20" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="13b-XD-tAG"/>
+                                    <constraint firstAttribute="height" constant="100" id="yPI-tG-swU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Button 1">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2g-yt-2cf" customClass="CircleButton">
+                                <rect key="frame" x="16" y="128" width="343" height="343"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Y2g-yt-2cf" secondAttribute="height" id="LsR-JG-KyX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzZ-lH-xHo" customClass="CircleButton">
+                                <rect key="frame" x="137" y="20" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="NaK-Yx-tdn"/>
+                                    <constraint firstAttribute="height" constant="100" id="TaL-Po-mmb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Button 2">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dm-k3-raC" customClass="CircleButton">
+                                <rect key="frame" x="259" y="20" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Crc-f5-yPh"/>
+                                    <constraint firstAttribute="width" constant="100" id="ZwL-sL-0kk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Button 3">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="button3Touch:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6JI-cO-anT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bzZ-lH-xHo" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="1Bc-eA-8KT"/>
+                            <constraint firstItem="1dm-k3-raC" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Ksq-bN-njf"/>
+                            <constraint firstItem="Y2g-yt-2cf" firstAttribute="top" secondItem="1dm-k3-raC" secondAttribute="bottom" constant="8" id="XYG-re-lXW"/>
+                            <constraint firstAttribute="centerX" secondItem="bzZ-lH-xHo" secondAttribute="centerX" id="ZlL-aO-8p5"/>
+                            <constraint firstItem="Y2g-yt-2cf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="daN-4h-EP9"/>
+                            <constraint firstItem="Y2g-yt-2cf" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="gOl-1f-qI8"/>
+                            <constraint firstItem="nGw-hh-C4I" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="p3C-aG-sJM"/>
+                            <constraint firstItem="nGw-hh-C4I" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="pzk-yL-mER"/>
+                            <constraint firstItem="1dm-k3-raC" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="vJr-Mo-xIU"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="button1" destination="nGw-hh-C4I" id="w1O-ZV-gzA"/>
+                        <outlet property="button2" destination="bzZ-lH-xHo" id="FwQ-LK-NZM"/>
+                        <outlet property="button3" destination="1dm-k3-raC" id="wQw-HB-hGe"/>
+                        <outlet property="circleButtonBig" destination="Y2g-yt-2cf" id="qhl-C4-sss"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="428.5"/>
+        </scene>
+    </scenes>
+</document>
