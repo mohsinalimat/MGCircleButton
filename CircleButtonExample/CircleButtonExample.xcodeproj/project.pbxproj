@@ -14,8 +14,8 @@
 		BA84E6E21B938FAF0053421B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA84E6E11B938FAF0053421B /* Images.xcassets */; };
 		BA84E6E51B938FAF0053421B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA84E6E31B938FAF0053421B /* LaunchScreen.xib */; };
 		BA84E6F11B938FAF0053421B /* CircleButtonExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA84E6F01B938FAF0053421B /* CircleButtonExampleTests.m */; };
-		BA84E7001B9390190053421B /* CircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA84E6FF1B9390190053421B /* CircleButton.m */; };
-		BA84E7011B9390190053421B /* CircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA84E6FF1B9390190053421B /* CircleButton.m */; };
+		BA84E7001B9390190053421B /* MGCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA84E6FF1B9390190053421B /* MGCircleButton.m */; };
+		BA84E7011B9390190053421B /* MGCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA84E6FF1B9390190053421B /* MGCircleButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +42,8 @@
 		BA84E6EA1B938FAF0053421B /* CircleButtonExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleButtonExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA84E6EF1B938FAF0053421B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA84E6F01B938FAF0053421B /* CircleButtonExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleButtonExampleTests.m; sourceTree = "<group>"; };
-		BA84E6FE1B9390190053421B /* CircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircleButton.h; path = ../../CircleButton/CircleButton.h; sourceTree = "<group>"; };
-		BA84E6FF1B9390190053421B /* CircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CircleButton.m; path = ../../CircleButton/CircleButton.m; sourceTree = "<group>"; };
+		BA84E6FE1B9390190053421B /* MGCircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGCircleButton.h; path = ../../CircleButton/MGCircleButton.h; sourceTree = "<group>"; };
+		BA84E6FF1B9390190053421B /* MGCircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGCircleButton.m; path = ../../CircleButton/MGCircleButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +89,8 @@
 				BA84E6D91B938FAF0053421B /* AppDelegate.m */,
 				BA84E6DB1B938FAF0053421B /* ViewController.h */,
 				BA84E6DC1B938FAF0053421B /* ViewController.m */,
-				BA84E6FE1B9390190053421B /* CircleButton.h */,
-				BA84E6FF1B9390190053421B /* CircleButton.m */,
+				BA84E6FE1B9390190053421B /* MGCircleButton.h */,
+				BA84E6FF1B9390190053421B /* MGCircleButton.m */,
 				BA84E6DE1B938FAF0053421B /* Main.storyboard */,
 				BA84E6E11B938FAF0053421B /* Images.xcassets */,
 				BA84E6E31B938FAF0053421B /* LaunchScreen.xib */,
@@ -228,7 +228,7 @@
 				BA84E6DD1B938FAF0053421B /* ViewController.m in Sources */,
 				BA84E6DA1B938FAF0053421B /* AppDelegate.m in Sources */,
 				BA84E6D71B938FAF0053421B /* main.m in Sources */,
-				BA84E7001B9390190053421B /* CircleButton.m in Sources */,
+				BA84E7001B9390190053421B /* MGCircleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA84E6F11B938FAF0053421B /* CircleButtonExampleTests.m in Sources */,
-				BA84E7011B9390190053421B /* CircleButton.m in Sources */,
+				BA84E7011B9390190053421B /* MGCircleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

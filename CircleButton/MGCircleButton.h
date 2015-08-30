@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CircleButton : UIButton
+@interface MGCircleButton : UIButton
 
 @property (assign, nonatomic) CGFloat borderWidth;
 @property (assign, nonatomic) BOOL clipTouchesToCircle;

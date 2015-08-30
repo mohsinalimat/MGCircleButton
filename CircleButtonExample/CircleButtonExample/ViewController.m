@@ -7,13 +7,13 @@
 //
 
 #import "ViewController.h"
-#import "CircleButton.h"
+#import "MGCircleButton.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet CircleButton *circleButtonBig;
-@property (weak, nonatomic) IBOutlet CircleButton *button1;
-@property (weak, nonatomic) IBOutlet CircleButton *button2;
-@property (weak, nonatomic) IBOutlet CircleButton *button3;
+@property (weak, nonatomic) IBOutlet MGCircleButton *circleButtonBig;
+@property (weak, nonatomic) IBOutlet MGCircleButton *button1;
+@property (weak, nonatomic) IBOutlet MGCircleButton *button2;
+@property (weak, nonatomic) IBOutlet MGCircleButton *button3;
 
 @end
 

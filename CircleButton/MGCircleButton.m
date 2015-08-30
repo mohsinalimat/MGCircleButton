@@ -5,16 +5,16 @@
 //  Copyright (c) 2015 Vitaliy Gozhenko. All rights reserved.
 //
 
-#import "CircleButton.h"
+#import "MGCircleButton.h"
 
-@interface CircleButton ()
+@interface MGCircleButton ()
 @property (strong, nonatomic) NSMutableDictionary *circleColors;
 @property (strong, nonatomic) NSMutableDictionary *borderColors;
 @property (strong, nonatomic) UIBezierPath *circlePath;
 @end
 
 
-@implementation CircleButton
+@implementation MGCircleButton
 
 - (instancetype)initWithFrame:(CGRect)frame {
 	if (self = [super initWithFrame:frame]) {
